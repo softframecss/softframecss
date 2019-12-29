@@ -5,13 +5,13 @@
     --sf2: 15.66667%;
     --sf3: 24%;
     --sf4: 32.33333%;
-    --sf5: 40.66667;
+    --sf5: 40.66667%;
     --sf6: 49%;
-    --sf7: 57.33333;
-    --sf8: 65.66667;
+    --sf7: 57.33333%;
+    --sf8: 65.66667%;
     --sf9: 74%;
-    --sf10: 82.33333;
-    --sf11: 90.66667;
+    --sf10: 82.33333%;
+    --sf11: 90.66667%;
     --sf12: 99%;
 
     /* DEFAULT COLORS */
@@ -45,89 +45,94 @@ p { font-size: 0.8rem; color: var(--dark-gray);}
     margin: auto;
 }
 
-.sf { margin: 5px; position: relative; /* insert before .softframe */}
+/* insert before .softframe */
+.sf { 
+    position: relative; 
+    display: flex; 
+    padding: 0 30px; /* remove this in you project */
+}
 .pf { padding: 5px; } /* padding */
 
 .sf1 { 
     width: var(--sf1);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf2 { 
     width: var(--sf2);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf3 { 
     width: var(--sf3);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf4 { 
     width: var(--sf4);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf5 { 
     width: var(--sf5);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf6 { 
     width: var(--sf6);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf7 { 
     width: var(--sf7);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf8 { 
     width: var(--sf8);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf9 { 
     width: var(--sf9);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf10 { 
     width: var(--sf10);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf11 { 
     width: var(--s11);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
 
 .sf12 { 
     width: var(--sf12);
-    margin: 0.25%;
+    margin: 0.5%;
     position: relative;
     display: inline-block;
 }
