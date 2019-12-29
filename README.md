@@ -5,22 +5,21 @@
 `.softframe`
 
 used to define the __main layout__.
-```
-...
+
+```html
 <body>
     <div class="softframe">
 
     </div>
 </body>
-...
 ```
 
 # layout subdivision
 `.sf`
 
 can be used with **section** or __main__.
-```
-...
+```html
+
 <body>
     <div class="softframe">
         <div class="sf">
