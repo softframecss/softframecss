@@ -39,6 +39,25 @@ p { font-size: 0.8rem; color: var(--dark-gray);}
 
 .text-center { text-align: center; }
 
+
+.link-download {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 35px;
+    background-color: var(--dark-gray);
+    color: var(--white);
+    padding: 20px;
+}
+
+.link-download:hover {
+    background-color: #363636de;
+}
+
+a {
+    text-decoration: none;
+}
+
 .softframe {
     width: 100%;
     display: inline-block;
