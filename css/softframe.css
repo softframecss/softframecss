@@ -44,7 +44,7 @@ p { font-size: 0.8rem; color: var(--dark-gray);}
     position: absolute;
     top: 0;
     right: 0;
-    margin: 35px;
+    margin: 0 145px;
     background-color: var(--dark-gray);
     color: var(--white);
     padding: 20px;
@@ -68,7 +68,7 @@ a {
 .sf { 
     position: relative; 
     display: flex; 
-    padding: 0 30px; /* remove this in you project */
+    padding: 0 145px; /* remove this in you project */
 }
 .pf { padding: 5px; } /* padding */
 
