@@ -1,3 +1,10 @@
+body {
+    font-family: 'Kulim Park', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
 :root {
     /* = ((100 / 12) * { block quantity }) - 1 */
     /* GRID CALCS*/
@@ -16,18 +23,13 @@
 
     /* DEFAULT COLORS */
     --white: #ffffff;
-    --light-gray: #d0d0d0;
+    --light-gray:#d0d0d0;
     --dark-gray: #363636;
     --black: #000000;
 }
 
-body {
-    font-family: 'Kulim Park', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;                                                                                                                                                                                     
-}
 
+/* TEXT ELEMENTS */
 h1 { font-size: 1.8rem; font-weight: 700; color: var(--dark-gray);}
 h2 { font-size: 1.6rem; font-weight: 700; color: var(--dark-gray);}
 h3 { font-size: 1.4rem; font-weight: 700; color: var(--dark-gray);}
@@ -37,9 +39,176 @@ h6 { font-size: 1rem; font-weight: 700; color: var(--dark-gray);}
 
 p { font-size: 0.8rem; color: var(--dark-gray);}
 
+a { text-decoration: none; }
+
+
+/* UTILITIES */
 .text-center { text-align: center; }
 
 
+/* COMPONENTS */
+/* COLORS */
+.light-gray {
+    color: var(--black);
+    font-weight: bold;
+    background-color: #d0d0d0;
+}
+.dark-gray {
+    color: var(--white);
+    font-weight: bold;
+    background-color: #363636;
+}
+.black {
+    color: var(--dark-gray);
+    font-weight: bold;
+    background-color: #000000;
+}
+
+/* BUTTOMS */
+.sf_buttom {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.sf_buttom:hover {
+    transition: all 0.5s ease 0s;
+    background-color: #000000a6;
+    color: #ffffff;
+}
+
+/* CARD */
+.sf_card {
+    position: relative;
+    color: var(--dark-gray);
+    background-color: var(--light-gray);
+    box-shadow: 0px 0px 4px 0px var(--light-gray);
+}
+
+
+/* GRID */
+.softframe {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+.sf { 
+    padding: 0 120px; /* remove this in you project */
+    position: relative;
+    display: flex;
+}
+.st {
+    display: inline-block;
+    position: relative;
+}
+.sf1 { 
+    width: var(--sf1);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf2 { 
+    width: var(--sf2);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf3 { 
+    width: var(--sf3);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf4 { 
+    width: var(--sf4);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf5 { 
+    width: var(--sf5);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf6 { 
+    width: var(--sf6);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf7 { 
+    width: var(--sf7);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf8 { 
+    width: var(--sf8);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf9 { 
+    width: var(--sf9);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf10 { 
+    width: var(--sf10);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf11 { 
+    width: var(--s11);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+.sf12 { 
+    width: var(--sf12);
+    margin: 0.5%;
+    position: relative;
+    display: inline-block;
+}
+
+
+/* NAVBAR */
+.sf_nav {  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.5%;
+}
+.sf_nav ul { 
+    list-style: none; 
+    padding: 0;
+}
+.sf_nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.sf_nav ul li:nth-child(1) {
+    padding: 0 20px 0 0;
+}
+
+
+/* FOOTER */
+.sf_footer {
+    position: relative;
+    display: flex;
+}
+.sf_footer a:visited { 
+    color: var(--dark-gray)
+}
+
+
+/* IGNORE */
 .link-download {
     position: absolute;
     top: 0;
@@ -49,116 +218,6 @@ p { font-size: 0.8rem; color: var(--dark-gray);}
     color: var(--white);
     padding: 20px;
 }
-
 .link-download:hover {
-    background-color: #363636de;
-}
-
-a {
-    text-decoration: none;
-}
-
-.softframe {
-    width: 100%;
-    display: inline-block;
-    margin: auto;
-}
-
-/* insert before .softframe */
-.sf { 
-    position: relative; 
-    display: flex; 
-    padding: 0 145px; /* remove this in you project */
-}
-.pf { padding: 5px; } /* padding */
-
-.sf1 { 
-    width: var(--sf1);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf2 { 
-    width: var(--sf2);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf3 { 
-    width: var(--sf3);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf4 { 
-    width: var(--sf4);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf5 { 
-    width: var(--sf5);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf6 { 
-    width: var(--sf6);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf7 { 
-    width: var(--sf7);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf8 { 
-    width: var(--sf8);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf9 { 
-    width: var(--sf9);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf10 { 
-    width: var(--sf10);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf11 { 
-    width: var(--s11);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf12 { 
-    width: var(--sf12);
-    margin: 0.5%;
-    position: relative;
-    display: inline-block;
-}
-
-.sf_card {
-    position: relative;
-    color: var(--dark-gray);
-    background-color: var(--light-gray);
-    box-shadow: 0px 0px 4px 0px var(--light-gray);
+    background-color: #363636;
 }
