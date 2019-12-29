@@ -25,6 +25,12 @@ body {
     margin: auto;
 }
 
+.sf {
+    margin: 5px;
+    display: -webkit-inline-box;
+    position: relative;
+}
+
 .sf1 { 
     width: var(--sf1);
     margin: 0.25%;
