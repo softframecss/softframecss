@@ -1,0 +1,1 @@
+ Favicons gerados com: https://realfavicongenerator.net/

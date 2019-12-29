@@ -1,0 +1,33 @@
+:root {
+    --sf1: calc((290% / 12) * 1);
+    --sf2: calc((290% / 12) * 2);
+    --sf3: calc((290% / 12) * 3);
+    --sf4: calc((290% / 12) * 4);
+    --sf5: calc((290% / 12) * 5);
+    --sf6: calc((290% / 12) * 6);
+    --sf7: calc((290% / 12) * 7);
+    --sf8: calc((290% / 12) * 8);
+    --sf9: calc((290% / 12) * 9);
+    --sf10: calc((290% / 12) * 10);
+    --sf11: calc((290% / 12) * 11);
+    --sf12: calc((290% / 12) * 12);
+}
+
+body {
+    font-family: 'Kulim Park', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.softframe {
+    width: 100%;
+    margin: auto;
+}
+
+.sf1 { 
+    width: var(--sf1);
+    margin: 0.25%;
+    position: relative;
+    display: inline-block;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "softframecss",
+  "version": "0.0.1",
+  "description": "A simple framework CSS for simples applications.",
+  "main": "index.js",
+  "repository": "https://github.com/softframecss/softframecss",
+  "author": "Deyvison Borges",
+  "license": "MIT"
+}
