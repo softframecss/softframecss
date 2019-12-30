@@ -1,4 +1,4 @@
-![alt text](https://i.imgur.com/TOFJ2x7.png)
+![alt text](https://imgur.com/LArvIZG.jpg)
 
 Favicons gerados com: https://realfavicongenerator.net/
 Icons: https://material.io/resources/icons/?style=baseline
