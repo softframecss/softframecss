@@ -94,11 +94,29 @@ a { text-decoration: none; }
     display: inline-block;
     margin: auto;
 }
+
+@media screen and (min-width: 320px) {
+    .softframe {
+        width: 100% !important;
+        display: inline-block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
 .sf { 
     padding: 0 120px; /* remove this in you project */
     position: relative;
     display: flex;
 }
+@media screen and (min-width: 320px) {
+    .sf {
+        margin: 0 !important;
+        padding: 0 10px !important;
+        position: relative;
+    }
+}
+
 .st {
     position: relative;
 }
@@ -292,6 +310,14 @@ a { text-decoration: none; }
     background-color: var(--dark-gray);
     color: var(--white);
     padding: 20px;
+}
+
+@media screen and (min-width: 320px) {
+    .link-download {
+        position: absolute;
+        display: inline-block;
+        margin: 10px;
+    }
 }
 .link-download:hover {
     background-color: #363636;
