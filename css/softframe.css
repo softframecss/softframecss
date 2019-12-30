@@ -26,6 +26,9 @@ body {
     --light-gray:#d0d0d0;
     --dark-gray: #363636;
     --black: #000000;
+    --sucess: #00af5e;
+    --danger: #af0008;
+    --warning: #d29e0b;
 }
 
 
