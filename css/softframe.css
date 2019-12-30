@@ -26,7 +26,7 @@ body {
     --light-gray:#d0d0d0;
     --dark-gray: #363636;
     --black: #000000;
-    --sucess: #00af5e;
+    --success: #00af5e;
     --danger: #af0008;
     --warning: #d29e0b;
 }
@@ -51,7 +51,7 @@ a { text-decoration: none; }
 
 
 /* COMPONENTS */
-/* COLORS */
+/* COLORS FOR BUTTONS*/
 .light-gray {
     color: var(--black);
     font-weight: bold;
@@ -66,6 +66,21 @@ a { text-decoration: none; }
     color: var(--white);
     font-weight: bold;
     background-color: #000000;
+}
+.success {
+    color: var(--white);
+    font-weight: bold;
+    background-color: var(--success);
+}
+.danger {
+    color: var(--white);
+    font-weight: bold;
+    background-color: var(--danger);
+}
+.warning {
+    color: var(--light-gray);
+    font-weight: bold;
+    background-color: var(--warning);
 }
 
 /* BUTTOMS */
