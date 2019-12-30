@@ -25,6 +25,7 @@ body {
     --white: #ffffff;
     --light-gray:#d0d0d0;
     --dark-gray: #363636;
+    --blue: #55b0ac;
     --black: #000000;
     --success: #00af5e;
     --danger: #af0008;
@@ -73,6 +74,11 @@ a { text-decoration: none; }
 
 /* COMPONENTS */
 /* COLORS FOR BUTTONS*/
+.white {
+    color: var(--dark-gray);
+    font-weight: bold;
+    background-color: #ffffff;
+}
 .light-gray {
     color: var(--black);
     font-weight: bold;
@@ -88,6 +94,11 @@ a { text-decoration: none; }
     font-weight: bold;
     background-color: #000000;
 }
+.blue {
+    color: var(--white);
+    font-weight: bold;
+    background-color: #55b0ac;
+}
 .success {
     color: var(--white);
     font-weight: bold;
@@ -102,6 +113,15 @@ a { text-decoration: none; }
     color: var(--light-gray);
     font-weight: bold;
     background-color: var(--warning);
+}
+
+/* BADGES */
+.sf_badge {
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
 }
 
 /* BUTTOMS */
@@ -284,6 +304,38 @@ a { text-decoration: none; }
     padding: 0 20px 0 0;
 }
 
+/* BREADCRUMB */
+.sf_breadcrumb {
+    width: 100%;
+    display: flex;
+    background-color: var(--light-gray);
+    justify-content: flex-start;
+}
+.sf_breadcrumb ul {
+    list-style: none;
+    padding: 0;
+}
+.sf_breadcrumb ul li {
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 0 10px;
+}
+.sf_breadcrumb ul li:nth-child(1) {
+    font-weight: 600;
+}
+.sf_breadcrumb ul li:nth-child(n)::after {
+    content: '>';
+    padding: 0 0 0 15px;
+}
+.sf_breadcrumb ul li:last-child::after {
+    content: '';
+}
+@media screen and (max-width: 640px) {
+    .sf_breadcrumb > ul > li {
+        padding: 0 5px;
+    }
+}
+
 
 /* FOOTER */
 .sf_footer {
@@ -390,5 +442,5 @@ a { text-decoration: none; }
     }
 }
 .link-download:hover {
-    background-color: #363636;
+    background-color: #d0d0d07a;
 }
