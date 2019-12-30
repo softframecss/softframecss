@@ -47,8 +47,29 @@ a { text-decoration: none; }
 
 /* UTILITIES */
 .text-center { text-align: center; }
-.pf { padding: 5px;}
 
+
+/* SOFT PADDINGS */
+.ps2 { padding: 2px;}
+.ps5 { padding: 5px;}
+.ps10 { padding: 10px;}
+.ps15 { padding: 15px;}
+.ps20 { padding: 20px;}
+.ps25 { padding: 25px;}
+.ps30 { padding: 30px;}
+.ps40 { padding: 40px;}
+
+@media screen and (max-width: 640px) {
+    .ps5,
+    .ps10,
+    .ps15,
+    .ps20,
+    .ps25,
+    .ps30,
+    .ps40 {
+        position: relative !important;
+    }
+}
 
 /* COMPONENTS */
 /* COLORS FOR BUTTONS*/
@@ -97,10 +118,20 @@ a { text-decoration: none; }
     background-color: #000000a6;
     color: #ffffff;
 }
+@media screen and (max-width: 640px) {
+    .sf_buttom {
+        position: relative;
+    }
+
+    .sf_buttom:hover {
+        transition: all 0.5s ease 0s;
+        background-color: #000000a6;
+        color: #ffffff;
+    }
+}
 
 /* CARD */
 .sf_card {
-    position: relative;
     color: var(--dark-gray);
     background-color: var(--light-gray);
     box-shadow: 0px 0px 4px 0px var(--light-gray);
