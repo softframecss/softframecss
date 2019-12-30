@@ -44,6 +44,7 @@ a { text-decoration: none; }
 
 /* UTILITIES */
 .text-center { text-align: center; }
+.pf { padding: 5px;}
 
 
 /* COMPONENTS */
@@ -86,7 +87,11 @@ a { text-decoration: none; }
     background-color: var(--light-gray);
     box-shadow: 0px 0px 4px 0px var(--light-gray);
 }
-
+@media screen and (max-width: 640px) {
+    .sf_card > h3 {
+        font-size: 0.6rem !important;
+    }
+}
 
 /* GRID */
 .softframe {
@@ -95,7 +100,7 @@ a { text-decoration: none; }
     margin: auto;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 640px) {
     .softframe {
         width: 100% !important;
         display: inline-block !important;
@@ -109,11 +114,11 @@ a { text-decoration: none; }
     position: relative;
     display: flex;
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 640px) {
     .sf {
         margin: 0 !important;
         padding: 0 10px !important;
-        position: relative;
+        position: relative !important;
     }
 }
 
@@ -192,6 +197,22 @@ a { text-decoration: none; }
     position: relative;
     display: inline-block;
 }
+/*
+@media screen and (max-width: 640px) {
+    .sf1,
+    .sf2,
+    .sf3,
+    .sf4,
+    .sf5,
+    .sf6,
+    .sf7,
+    .sf8,
+    .sf9,
+    .sf10,
+    .sf11,
+    .sf12 { 
+    }
+}*/
 
 
 /* NAVBAR */
@@ -312,9 +333,9 @@ a { text-decoration: none; }
     padding: 20px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 640px) {
     .link-download {
-        position: absolute;
+        position: absolute !important;
         display: inline-block;
         margin: 10px;
     }
