@@ -61,6 +61,7 @@ a { text-decoration: none; }
 
 /* UTILITIES */
 .text-center { text-align: center; }
+.item-center { align-items: center; }
 
 
 /* SOFT PADDINGS */
