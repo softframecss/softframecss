@@ -3,7 +3,7 @@
 
 
 [![Inline docs](http://inch-ci.org/github/softframecss/softframecss.svg?branch=master)](http://inch-ci.org/github/softframecss/softframecss/)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/deeborges)
 [![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json)
 [![HitCount](http://hits.dwyl.io/softframecss/softframecss.svg)](http://hits.dwyl.io/softframecss/softframecss)
 
